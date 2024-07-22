@@ -35,7 +35,7 @@ public class LoginTC extends BaseClass {
 		 {
 		
 		  landingPage.login("Admin", "admin123");
-		  
+		  System.out.println("Logout");
 		  landingPage.logOut();	
 		//Thread.sleep(500);
 		  } 
