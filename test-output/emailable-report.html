@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.param,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.param td,table.param th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.param th {vertical-align:bottom}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.param td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.param tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Login Page</td><td class="numi">2</td><td class="numi">2</td><td class="numi">0</td><td class="numi">0</td><td class="numi">22.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Add Delete User</td><td class="numi">2</td><td class="numi">2</td><td class="numi_attn">1</td><td class="numi_attn">2</td><td class="numi">86.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">4</td><td class="numi">4</td><td class="numi_attn">1</td><td class="numi_attn">2</td><td class="numi">86.1 seconds</td><td colspan="2">&nbsp;</td></tr>
+</table>
+<a id="summary"></a>
+<table cellspacing=0 cellpadding=0 class="passed">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Login Page &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="2">orangeHRM.testCases.LoginTC<td><a href="#m1"><b>logOutApplication</b>  </a></td><td class="numi">1</td><td>1721151101625</td><td class="numi">3969</td></tr><tr class="passedodd"><td><a href="#m2"><b>loginApplication</b>  </a></td><td class="numi">1</td><td>1721151092462</td><td class="numi">2377</td></tr>
+<tr><th colspan="4">Add Delete User &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="2">orangeHRM.testCases.AdminTC<td><a href="#m3"><b>addAdminUser</b>  </a></td><td class="numi">2</td><td>1721151107590</td><td class="numi">44375</td></tr><tr class="failedodd"><td><a href="#m4"><b>addAdminUser</b>  </a></td><td class="numi">2</td><td>1721151107590</td><td class="numi">44375</td></tr>
+<tr><th colspan="4">Add Delete User &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="1">orangeHRM.testCases.AdminTC<td><a href="#m5"><b>deleteAdminUser</b>  </a></td><td class="numi">1</td><td>1721151169125</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Add Delete User &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="2">orangeHRM.testCases.LeaveTC<td><a href="#m6"><b>applyLeaveTC</b>  </a></td><td class="numi">1</td><td>1721151092902</td><td class="numi">7719</td></tr><tr class="passedodd"><td><a href="#m7"><b>cancelLeaveTC</b>  </a></td><td class="numi">1</td><td>1721151159312</td><td class="numi">9574</td></tr>
+</table>
+<h1>Login Page</h1>
+<a id="m1"></a><h2>orangeHRM.testCases.LoginTC:loginApplication</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m2"></a><h2>orangeHRM.testCases.LoginTC:logOutApplication</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Add Delete User</h1>
+<a id="m3"></a><h2>orangeHRM.testCases.AdminTC:addAdminUser</h2>
+<div style="padding-left:3em">
+<p>Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //p[@class=&apos;oxd-text oxd-text--p oxd-text--toast-message oxd-toast-content-text&apos;]&apos; (tried for 10 second(s) with 500 milliseconds interval)</p>
+org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+<br/>at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+<br/>at orangeHRM.commonMetods.CommonMethods.waitForToastMsgToDisplay(CommonMethods.java:101)
+<br/>at orangeHRM.pageClasses.AdminPage.addUser(AdminPage.java:104)
+<br/>at orangeHRM.testCases.AdminTC.addAdminUser(AdminTC.java:31)
+<br/>19 lines not shown
+<p>Caused by no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[@class=&apos;oxd-text oxd-text--p oxd-text--toast-message oxd-toast-content-text&apos;]&quot;}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [feb0a1cc25888d0071399083fc1d65ef, findElement {using=xpath, value=//p[@class=&apos;oxd-text oxd-text--p oxd-text--toast-message oxd-toast-content-text&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\ADITYA~1.MOR\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53826}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53826/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: feb0a1cc25888d0071399083fc1d65ef</p>
+java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+<br/>at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+<br/>at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+<br/>at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+<br/>at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+<br/>at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+<br/>at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+<br/>at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+<br/>at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+<br/>at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+<br/>at jdk.proxy2/jdk.proxy2.$Proxy16.isDisplayed(Unknown Source)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:37)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+<br/>at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+<br/>at orangeHRM.commonMetods.CommonMethods.waitForToastMsgToDisplay(CommonMethods.java:101)
+<br/>at orangeHRM.pageClasses.AdminPage.addUser(AdminPage.java:104)
+<br/>at orangeHRM.testCases.AdminTC.addAdminUser(AdminTC.java:31)
+<br/>19 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m4"></a><h2>orangeHRM.testCases.AdminTC:addAdminUser</h2>
+<div style="padding-left:3em">
+<p>Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //p[@class=&apos;oxd-text oxd-text--p oxd-text--toast-message oxd-toast-content-text&apos;]&apos; (tried for 10 second(s) with 500 milliseconds interval)</p>
+org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+<br/>at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+<br/>at orangeHRM.commonMetods.CommonMethods.waitForToastMsgToDisplay(CommonMethods.java:101)
+<br/>at orangeHRM.pageClasses.AdminPage.addUser(AdminPage.java:104)
+<br/>at orangeHRM.testCases.AdminTC.addAdminUser(AdminTC.java:31)
+<br/>19 lines not shown
+<p>Caused by no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[@class=&apos;oxd-text oxd-text--p oxd-text--toast-message oxd-toast-content-text&apos;]&quot;}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cde131e494646a6f7f6f00115b0f49bd, findElement {using=xpath, value=//p[@class=&apos;oxd-text oxd-text--p oxd-text--toast-message oxd-toast-content-text&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\ADITYA~1.MOR\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53851}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53851/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cde131e494646a6f7f6f00115b0f49bd</p>
+java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+<br/>at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+<br/>at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+<br/>at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+<br/>at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+<br/>at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+<br/>at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+<br/>at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+<br/>at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+<br/>at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+<br/>at jdk.proxy2/jdk.proxy2.$Proxy16.isDisplayed(Unknown Source)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:37)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+<br/>at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+<br/>at orangeHRM.commonMetods.CommonMethods.waitForToastMsgToDisplay(CommonMethods.java:101)
+<br/>at orangeHRM.pageClasses.AdminPage.addUser(AdminPage.java:104)
+<br/>at orangeHRM.testCases.AdminTC.addAdminUser(AdminTC.java:31)
+<br/>19 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m5"></a><h2>orangeHRM.testCases.AdminTC:deleteAdminUser</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m6"></a><h2>orangeHRM.testCases.LeaveTC:applyLeaveTC</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m7"></a><h2>orangeHRM.testCases.LeaveTC:cancelLeaveTC</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

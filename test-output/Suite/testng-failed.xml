@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="orangeHRM.baseClass.Listener"/>
+  </listeners>
+  <test parallel="tests" name="Add Delete User(failed)" preserve-order="true">
+    <classes>
+      <class name="orangeHRM.testCases.AdminTC">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="addAdminUser"/>
+          <include name="launchApplication"/>
+          <include name="deleteAdminUser"/>
+        </methods>
+      </class> <!-- orangeHRM.testCases.AdminTC -->
+      <class name="orangeHRM.testCases.LeaveTC">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- orangeHRM.testCases.LeaveTC -->
+      <class name="orangeHRM.testCases.LoginTC">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- orangeHRM.testCases.LoginTC -->
+    </classes>
+  </test> <!-- Add Delete User(failed) -->
+</suite> <!-- Failed suite [Suite] -->

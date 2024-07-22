@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="7" passed="4" failed="2" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-16T17:31:22Z" name="Suite" finished-at="2024-07-16T17:32:49Z" duration-ms="86148">
+    <groups>
+    </groups>
+    <test started-at="2024-07-16T17:31:22Z" name="Login Page" finished-at="2024-07-16T17:31:45Z" duration-ms="22767">
+      <class name="orangeHRM.testCases.LoginTC">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:orangeHRM.testCases.LoginTC@58c34bb3]" started-at="2024-07-16T23:01:22Z" name="launchApplication" finished-at="2024-07-16T23:01:32Z" duration-ms="9475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginApplication()[pri:0, instance:orangeHRM.testCases.LoginTC@58c34bb3]" started-at="2024-07-16T23:01:32Z" name="loginApplication" finished-at="2024-07-16T23:01:34Z" duration-ms="2377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:orangeHRM.testCases.LoginTC@58c34bb3]" started-at="2024-07-16T23:01:34Z" name="closeBrowser" finished-at="2024-07-16T23:01:35Z" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:orangeHRM.testCases.LoginTC@58c34bb3]" started-at="2024-07-16T23:01:35Z" name="launchApplication" finished-at="2024-07-16T23:01:41Z" duration-ms="6609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="logOutApplication()[pri:0, instance:orangeHRM.testCases.LoginTC@58c34bb3]" started-at="2024-07-16T23:01:41Z" name="logOutApplication" finished-at="2024-07-16T23:01:45Z" duration-ms="3969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:orangeHRM.testCases.LoginTC@58c34bb3]" started-at="2024-07-16T23:01:45Z" name="closeBrowser" finished-at="2024-07-16T23:01:45Z" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- orangeHRM.testCases.LoginTC -->
+    </test> <!-- Login Page -->
+    <test started-at="2024-07-16T17:31:22Z" name="Add Delete User" finished-at="2024-07-16T17:32:49Z" duration-ms="86148">
+      <class name="orangeHRM.testCases.LeaveTC">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:orangeHRM.testCases.LeaveTC@60d1a32f]" started-at="2024-07-16T23:01:22Z" name="launchApplication" finished-at="2024-07-16T23:01:32Z" duration-ms="9915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="applyLeaveTC()[pri:0, instance:orangeHRM.testCases.LeaveTC@60d1a32f]" started-at="2024-07-16T23:01:32Z" name="applyLeaveTC" finished-at="2024-07-16T23:01:40Z" duration-ms="7719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyLeaveTC -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:orangeHRM.testCases.LeaveTC@60d1a32f]" started-at="2024-07-16T23:01:40Z" name="closeBrowser" finished-at="2024-07-16T23:01:40Z" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:orangeHRM.testCases.LeaveTC@60d1a32f]" started-at="2024-07-16T23:02:32Z" name="launchApplication" finished-at="2024-07-16T23:02:39Z" duration-ms="6862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="cancelLeaveTC()[pri:0, instance:orangeHRM.testCases.LeaveTC@60d1a32f]" started-at="2024-07-16T23:02:39Z" name="cancelLeaveTC" finished-at="2024-07-16T23:02:48Z" depends-on-methods="orangeHRM.testCases.LeaveTC.applyLeaveTC" duration-ms="9574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelLeaveTC -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:orangeHRM.testCases.LeaveTC@60d1a32f]" started-at="2024-07-16T23:02:48Z" name="closeBrowser" finished-at="2024-07-16T23:02:49Z" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- orangeHRM.testCases.LeaveTC -->
+      <class name="orangeHRM.testCases.AdminTC">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:orangeHRM.testCases.AdminTC@75e91545]" started-at="2024-07-16T23:01:40Z" name="launchApplication" finished-at="2024-07-16T23:01:47Z" duration-ms="6730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="addAdminUser()[pri:0, instance:orangeHRM.testCases.AdminTC@75e91545]" started-at="2024-07-16T23:01:47Z" name="addAdminUser" finished-at="2024-07-16T23:02:06Z" duration-ms="18731" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //p[@class='oxd-text oxd-text--p oxd-text--toast-message oxd-toast-content-text']' (tried for 10 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //p[@class='oxd-text oxd-text--p oxd-text--toast-message oxd-toast-content-text']' (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at orangeHRM.commonMetods.CommonMethods.waitForToastMsgToDisplay(CommonMethods.java:101)
+	at orangeHRM.pageClasses.AdminPage.addUser(AdminPage.java:104)
+	at orangeHRM.testCases.AdminTC.addAdminUser(AdminTC.java:31)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class='oxd-text oxd-text--p oxd-text--toast-message oxd-toast-content-text']"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [feb0a1cc25888d0071399083fc1d65ef, findElement {using=xpath, value=//p[@class='oxd-text oxd-text--p oxd-text--toast-message oxd-toast-content-text']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\ADITYA~1.MOR\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53826}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53826/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: feb0a1cc25888d0071399083fc1d65ef
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:37)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+	... 21 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAdminUser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:orangeHRM.testCases.AdminTC@75e91545]" started-at="2024-07-16T23:02:06Z" name="closeBrowser" finished-at="2024-07-16T23:02:06Z" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:orangeHRM.testCases.AdminTC@75e91545]" started-at="2024-07-16T23:02:06Z" name="launchApplication" finished-at="2024-07-16T23:02:13Z" duration-ms="6846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="addAdminUser()[pri:0, instance:orangeHRM.testCases.AdminTC@75e91545]" started-at="2024-07-16T23:02:13Z" name="addAdminUser" finished-at="2024-07-16T23:02:31Z" duration-ms="18312" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //p[@class='oxd-text oxd-text--p oxd-text--toast-message oxd-toast-content-text']' (tried for 10 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //p[@class='oxd-text oxd-text--p oxd-text--toast-message oxd-toast-content-text']' (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at orangeHRM.commonMetods.CommonMethods.waitForToastMsgToDisplay(CommonMethods.java:101)
+	at orangeHRM.pageClasses.AdminPage.addUser(AdminPage.java:104)
+	at orangeHRM.testCases.AdminTC.addAdminUser(AdminTC.java:31)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:1055)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1260)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class='oxd-text oxd-text--p oxd-text--toast-message oxd-toast-content-text']"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cde131e494646a6f7f6f00115b0f49bd, findElement {using=xpath, value=//p[@class='oxd-text oxd-text--p oxd-text--toast-message oxd-toast-content-text']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\ADITYA~1.MOR\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53851}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53851/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cde131e494646a6f7f6f00115b0f49bd
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:37)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+	... 21 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAdminUser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:orangeHRM.testCases.AdminTC@75e91545]" started-at="2024-07-16T23:02:32Z" name="closeBrowser" finished-at="2024-07-16T23:02:32Z" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method signature="deleteAdminUser()[pri:0, instance:orangeHRM.testCases.AdminTC@75e91545]" started-at="2024-07-16T23:02:49Z" name="deleteAdminUser" finished-at="2024-07-16T23:02:49Z" depends-on-methods="orangeHRM.testCases.AdminTC.addAdminUser" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAdminUser -->
+      </class> <!-- orangeHRM.testCases.AdminTC -->
+    </test> <!-- Add Delete User -->
+  </suite> <!-- Suite -->
+</testng-results>
